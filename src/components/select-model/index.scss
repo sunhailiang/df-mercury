@@ -1,0 +1,60 @@
+.select-model{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.5);
+}
+.select-item{
+  width: 630px;
+  position: relative;
+}
+
+.select-item-warp{
+  height: 100%;
+  width: 100%;
+}
+
+.select-item-address{
+  height: 880px;
+  background: url("../../assets/image/select-model/address-model.png") no-repeat;
+  -webkit-background-size:100%;
+  background-size: 100%;
+}
+
+.select-item-sex{
+  height: 720px;
+  background: url("../../assets/image/select-model/sex-model.png") no-repeat;
+  -webkit-background-size:100%;
+  background-size: 100%;
+}
+.select-close{
+  position: absolute;
+  bottom: -60px;
+  width: 100%;
+  left: 0;
+  text-align: center;
+}
+.select-close img{
+  width: 30px;
+  height: 30px;
+}
+.fade-enter{
+  opacity: 0;
+}
+.fade-enter-to{
+  opacity: 1;
+}
+.fade-enter-active,.fade-leave-active{
+  transition: .5s;
+}
+.fade-leave{
+  opacity: 1;
+}
+.fade-leave-to{
+  opacity: 0;
+}

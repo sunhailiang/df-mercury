@@ -1,0 +1,46 @@
+$pick-height:100px;
+$pick-width:170px;
+$pick-count:5;
+$pick-start:2;
+$pick-line:2px;
+.pick-line {
+  position: absolute;
+  width: $pick-width;
+  height: $pick-line;
+  background-color: #FFFFFF;
+}
+.pick-top-line{
+  top: $pick-start * $pick-height + $pick-line;
+}
+.pick-bottom-line{
+  top: $pick-start * $pick-height + $pick-height - $pick-line;
+}
+
+.pick{
+  overflow: hidden;
+  position: relative;
+  margin-top: $pick-start * $pick-height;
+}
+.pick-warp{
+  position: relative;
+  width: $pick-width;
+  height: $pick-height * $pick-count;
+  overflow: hidden;
+}
+.pick-item{
+  width: 90%;
+  padding: 0 5%;
+  line-height: $pick-height;
+  height: $pick-height;
+  font-size: 34px;
+  color: #999999;
+  //display: flex;
+  //align-items: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: center;
+  text-overflow: ellipsis;
+}
+.pick-item-select{
+  color: #fff;
+}

@@ -1,0 +1,22 @@
+html{width: 100%;height: 100%;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; }
+mark{background: inherit;color: inherit}
+body { background:#000; height: 100%; font-family: 'Microsoft Yahei',Tahoma,Helvetica,Arial,sans-serif;overflow-x: hidden;}
+h1, h2, h3, h4, h5, h6, p{ font-weight:normal; font-size:100%;}
+a {color: #4C4C4C; text-decoration:none; }
+a:hover{text-decoration: none !important;}
+.cf:after {content: ""; display: block;clear: both;}
+.cf { display: inline-table; }
+.cf { display: block; }
+.fl{float: left;}
+.fr{float: right;}
+.flex{display: flex;}
+img{ border:none; }
+ol,ul,li { list-style:none; }
+i{ font-style: normal}
+input, textarea, select, button { background: #FFFFFF; font:14px Verdana,Helvetica,Arial,sans-serif; border: 1px solid #999; outline: none; }
+table { border-collapse:collapse; }
+button{cursor: pointer;  outline: none;  border: 0;}
+*{
+     box-sizing: border-box;
+}
